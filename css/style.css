@@ -45,7 +45,8 @@
 }
 
 .picture{
-    height: 650px;
+
+    width: 100%;
 }
 
 .highlighted-text{
@@ -116,3 +117,29 @@ footer{
     padding-left: 20px;
     padding-top: 15px;
 }
+
+
+/* BONUS */
+.header-section{
+    text-align: center;
+}
+
+.main-section{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.footer-section{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 60%;
+}
+
+.suggestion {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
