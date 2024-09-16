@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+/* header section */
+.header-section{
+    background-color: rgb(56, 135, 209);
+    background-image: url("../img/pattern.png");
+    background-size: 300px;
+}
+
+.logo{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+/* main section */
+.main-section{
+    margin-left: 10px;
+}
+
+.title{
+    margin-top: 25px;
+    font-size: 70px;
+}
+
+.title-caption{
+    font-size: 30px;
+    color: #636363;
+}
+
+.author-name{
+    color: #199dc9;
+    font-size: 30px;
+
+}
+
+.tim-pictures{
+    margin-block: 25px;
+}
+
+.picture{
+    height: 650px;
+}
+
+.highlighted-text{
+    background-color: #ffff00;
+}
+
+.un-list{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* table */
+table{
+    margin-block: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #9de5f1;
+}
+
+th{
+    color: #ffffff;
+    background-color: #199dc9;
+}
+
+td{
+    width: 24vw;
+    font-weight: 700;
+}
+
+td:last-child{
+    width: 55vw;
+}
+
+/* footer section */
+footer{
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-title{
+    color: #636363;
+}
+
+.suggestion-1{
+    background-image: url("../img/monitor.jpg");
+    
+}
+
+.suggestion-2{
+    background-image: url("../img/graph.jpg");
+}
+
+.suggestion{
+    background-size:cover;
+    color: #ffffff;
+    height: 250px;
+    width: 20vw;
+    margin-top: 25px;
+}
+
+.suggestion-text{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 15px;
+}
